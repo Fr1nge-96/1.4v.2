@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет 1.2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script>
+        {
+        if (screen.width < 768) document.write ('<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></sc' + 'ript>');
+        }
+        </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+                <div class="container">
+                    <header class="header__row">
+                        <div class="header__burger">
+                            <a href="#" id="menu__button">
+                                <img src="./icons/Group 50.svg">
+                            </a>
+                        </div>
+                        <div class="header__logo">
+                            <a href="#"><img src="./img/header_logo.svg" alt="Логотип"></a>
+                            <a href="#"><img src="./img/header_logo_b.svg" alt="Логотип"></a>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="header__nav-style">
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Цены</a></li>
+                                <li><a href="#">Кейсы и отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="header__social">
+                            <div class="header__social--social ">
+                                <a href="#"><img src="./icons/telegram.svg" alt="Telegram"></a>
+                                <a href="#"><img src="./icons/whatsapp.svg" alt="WhatsApp"></a>
+                                <a class="header__social--phone" href="#">+ 7 (495) 555 65 65</a>
+                            </div>
+                            <div>
+                                <p class="header__social--work">
+                                    Ежедневно с 09:00 до 18:00
+                                </p>
+                            </div>
+                        </nav>
+                        <div class="header__callback">
+                            <button type="button" class="call">
+                                <span>Заказать звонок</span>
+                            </button>
+                        </div>  
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div>
+            <nav class="menu" id="main__menu">
+                <div class="menu__columns">
+                    <button class="menu__vector" id="vector"><img src="./icons/Vector.svg"></button>
+                    <ul class="menu__list">
+                        <li><a class="list__item" href="#">Главная</a></li>
+                        <li><a class="list__item" href="#">Интернет-магазины,<br>которые продают</a></li>
+                        <li><a class="list__item" href="#">Что вы получаете</a></li>
+                        <li><a class="list__item" href="#">Контакты</a></li>
+                        <li><a class="list__item" href="#">Исследуем бизнес</a></li>
+                        <li><a class="list__item" href="#">Этапы</a></li>
+                        <li><a class="list__item" href="#">Обратная связь</a></li>
+                    </ul>
+                    <div class="menu__info">
+                        <a>info@millenium.ru</a>
+                        <p>+7 (495) 792-66-69<br>
+                            пн-пт 10:00–19:00</p>
+                    </div>
+                </div>
+                <div class="menu__blur" id="blur">
+                    <span></span>
+                </div>
+            </nav>  
+        </div>
+        <div class="content">
+            <div class="main-content">
+                <div class="container">
+                    <section class="main-content__column">
+                        <div class="main-content__title">
+                            <h1>
+                            Разработка интернет-магазинов <span>на 1C-Битрикс</span>
+                            </h1>
+                        </div> 
+                        <div class="main-content__image">
+                            <img src="./img/image_main.png" alt="Варианты макетов сайта">   
+                        </div>
+                        <div class="main-content__text">
+                            <p>Разработаем интернет-магазин за 30 дней с уникальным 
+                                дизайном и продуманной структурой который 
+                                <span>выделит вас на фоне конкурентов</span>
+                            </p>
+                        </div>
+                        <div>
+                            <button type="button" class="cost">
+                                <span>Узнать стоимость</span>
+                            </button>
+                        </div>
+                        <div class="main-content__final">
+                            <p>
+                                <span>Оставьте заявку и получите 
+                                    бесплатную консультацию от специалиста, полный расчет 
+                                    стоимости разработки и бонус:
+                                </span> 
+                                <br>
+                                «15 сервисов которые покажут стратегию продвижения конкурентов,
+                                всё об их выдаче в поиске и не только»
+                            </p>
+                        </div>  
+                        <div class="swiper__header" style="white-space: wrap">Мы создаем интернет-магазины,
+                             <span>которые продают</span>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <ul class="swiper-slide__page">
+                <li class="swiper-slide__page-count">01</li>
+                <li class="swiper-slide__page-special">Удобный интерфейс</li>
+                <li class="swiper-slide__description">Блоковая подача информации, удобные кнопки, карточки товаров,
+                    понятное меню и легкая навигация по многостраничному сайту.</li>
+            </ul>
+        </div>
+        <div class="swiper-slide">
+            <ul class="swiper-slide-page">
+                <li class="swiper-slide__page-count">02</li>
+                <li class="swiper-slide__page-special">Продающая структура</li>
+                <li class="swiper-slide__description">Делаем анализ вашей целевой аудитории и вашего предложения. 
+                    Опираясь на анализ прописываем продающуюу структуру сайта.</li>
+            </ul>
+        </div>
+        <div class="swiper-slide">
+            <ul class="swiper-slide-page">
+                <li class="swiper-slide__page-count">03</li>
+                <li class="swiper-slide__page-special">Адаптивность</li>
+                <li class="swiper-slide__description">Сайт корректно отображается на различных устройствах, элементы 
+                    динамически подстраиваются под различные разрешения экрана, 
+                    что повышает конверсию сайта в покупку.</li>
+            </ul>
+        </div>
+        <div class="swiper-slide">
+            <ul class="swiper-slide-page">
+                <li class="swiper-slide__page-count">04</li>
+                <li class="swiper-slide__page-special">Уникальный дизайн</li>
+                <li class="swiper-slide__description">Не пользуемся шаблонными решениями. Под каждый проект разрабатывается
+                    индивидуальный дизайн который подчеркнет имидж компании</li>
+            </ul>
+        </div>
+        <div class="swiper-slide">
+            <ul class="swiper-slide-page">
+                <li class="swiper-slide__page-count">05</li>
+                <li class="swiper-slide__page-special">Защита и безопасность</li>
+                <li class="swiper-slide__description">Подключаем HTPS протокол, защиту от DDOS атак, 
+                    чтобы данные клиентов были в безопасности.</li>
+            </ul>
+        </div>    
+        <div class="swiper-slide">
+            <ul class="swiper-slide-page">
+                <li class="swiper-slide__page-count">06</li>
+                <li class="swiper-slide__page-special">SEO оптимизация</li>
+                <li class="swiper-slide__description">Сайты соответствуют требованиям поисковой оптимизации, они без труда
+                    покоряют топы поисковой выдачи Яндекс и Google.</li>
+            </ul>
+        </div> 
+    </div>
+    <div class="swiper-pagination"></div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<script src="swiper.js"></script>
+</div>
+
+
+<div class="swiper-tile">
+    <div class="swiper-wrapper__flex" id="cursorDown">
+        <div class="arrow-down" id="cursorUp">
+            <a href="#" id="arrow__down">
+                <img src="./icons/Vector_down.svg">
+            </a>
+        </div>
+        <div class="swiper__flex">
+            <ul class="swiper-slide-card">
+                <li class="swiper-slide__page-count">01</li>
+                <li class="swiper-slide__page-special">Удобный интерфейс</li>
+                <li class="swiper-slide__description">Блоковая подача информации, удобные кнопки, карточки товаров,
+                    понятное меню и легкая навигация по многостраничному сайту.</li>
+            </ul>
+        </div>
+        <div class="swiper__flex">
+            <ul class="swiper-slide-card">
+                <li class="swiper-slide__page-count">02</li>
+                <li class="swiper-slide__page-special">Продающая структура</li>
+                <li class="swiper-slide__description">Делаем анализ вашей целевой аудитории и вашего предложения. 
+                    Опираясь на анализ прописываем продающуюу структуру сайта.</li>
+            </ul>
+        </div>
+        <div class="swiper__flex">
+            <ul class="swiper-slide-card">
+                <li class="swiper-slide__page-count">03</li>
+                <li class="swiper-slide__page-special">Адаптивность</li>
+                <li class="swiper-slide__description">Сайт корректно отображается на различных устройствах, элементы 
+                    динамически подстраиваются под различные разрешения экрана, 
+                    что повышает конверсию сайта в покупку.</li>
+            </ul>
+        </div>
+        <div class="swiper__flex">
+            <ul class="swiper-slide-card">
+                <li class="swiper-slide__page-count">04</li>
+                <li class="swiper-slide__page-special">Уникальный дизайн</li>
+                <li class="swiper-slide__description">Не пользуемся шаблонными решениями. Под каждый проект разрабатывается
+                    индивидуальный дизайн который подчеркнет имидж компании</li>
+            </ul>
+        </div>
+        <div class="swiper__flex">
+            <ul class="swiper-slide-card">
+                <li class="swiper-slide__page-count">05</li>
+                <li class="swiper-slide__page-special">Защита и безопасность</li>
+                <li class="swiper-slide__description">Подключаем HTPS протокол, защиту от DDOS атак, 
+                    чтобы данные клиентов были в безопасности.</li>
+            </ul>
+        </div>    
+        <div class="swiper__flex">
+            <ul class="swiper-slide-card">
+                <li class="swiper-slide__page-count">06</li>
+                <li class="swiper-slide__page-special">SEO оптимизация</li>
+                <li class="swiper-slide__description">Сайты соответствуют требованиям поисковой оптимизации, они без труда
+                    покоряют топы поисковой выдачи Яндекс и Google.</li>
+            </ul>
+        </div> 
+        
+    </div> 
+</div>  
+<script src="js.js"></script>
+</body>
+</html>
