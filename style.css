@@ -718,7 +718,7 @@ button {
 
 .form-order__container {
     transition: all 0.6s ease-in;
-    width: 100vw;
+    width: calc(100vw - 18px);
     height: 100vh;
     position: absolute;
     z-index: 1000;
