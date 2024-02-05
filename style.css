@@ -1598,7 +1598,7 @@ button {
         left: 23px;
     }
     .footer__wrapper {
-        margin: 150px auto 0px ;
+        margin: 150px -8px -8px;
     }
     .footer {
         max-width: 1100px;
